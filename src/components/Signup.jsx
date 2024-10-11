@@ -51,9 +51,9 @@ export default function SignUp() {
             <Container fluid className="d-flex justify-content-center align-items-center vh-100">
                 <Row className="justify-content-center w-100">
                     <Col xs={12} md={6} lg={4}>
-                        <h1 className="text-center mb-4">Gamer Holiday</h1>
-                        <h1 className="text-center mb-4"> Book your Trip now ! </h1>
-                        <h2 className="text-center mb-4">Sign Up</h2>
+                        <h1 className="text-center mb-4" style={{ color: "whitesmoke" }}>Gamer Holiday</h1>
+                        <h1 className="text-center mb-4" style={{ color: "whitesmoke" }}> Book your Trip now ! </h1>
+                        <h2 className="text-center mb-4" style={{ color: "whitesmoke" }}>Sign Up</h2>
                         <Form onSubmit={handleSignUp}>
                             <Form.Group className="mb-3" controlId="formEmail">
                                 <Form.Control
@@ -86,7 +86,7 @@ export default function SignUp() {
                             </Button>
                         </Form>
 
-                        <p className="mt-4 text-center">
+                        <p className="mt-4 text-center" style={{ color: "whitesmoke" }}>
                             Already have an account? {""}
                             <Button variant="outline-primary" className="rounded-pill ml-2" onClick={gotoLogin}>
                                 Log in

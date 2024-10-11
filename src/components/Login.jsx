@@ -56,8 +56,8 @@ export default function LogIn() {
             <Container fluid className="d-flex justify-content-center align-items-center vh-100">
                 <Row className="justify-content-center w-100">
                     <Col xs={12} md={8} lg={6} xl={4}>
-                        <h1 className="text-center mb-4">Gamer Holiday</h1>
-                        <h2 className="text-center mb-4">Log In</h2>
+                        <h1 className="text-center mb-4" style={{ color: "whitesmoke" }}>Gamer Holiday</h1>
+                        <h2 className="text-center mb-4" style={{ color: "whitesmoke" }}>Log In</h2>
 
                         <Form onSubmit={handleLogIn}>
                             <Form.Group className="mb-3" controlId="formEmail">
@@ -83,8 +83,8 @@ export default function LogIn() {
                             </Button>
                         </Form>
 
-                        <p className="mt-4 text-center">
-                            Create an account{" "}
+                        <p className="mt-4 text-center" style={{ color: "whitesmoke" }}>
+                            Create an account now {" "}
                             <Button variant="outline-primary" className="rounded-pill ml-2" onClick={gotoSignUp}>
                                 Sign Up
                             </Button>
