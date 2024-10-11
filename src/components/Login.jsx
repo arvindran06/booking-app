@@ -59,7 +59,6 @@ export default function LogIn() {
                         <h1 className="text-center mb-4">Gamer Holiday</h1>
                         <h2 className="text-center mb-4">Log In</h2>
 
-                        {/* Form for email and password login */}
                         <Form onSubmit={handleLogIn}>
                             <Form.Group className="mb-3" controlId="formEmail">
                                 <Form.Control
