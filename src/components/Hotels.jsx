@@ -10,7 +10,7 @@ export default function Hotels() {
     const [token] = useState('');
 
     useEffect(() => {
-        axios.get('https://8364f4f0-6dd5-484b-962b-67490c79bbbe-00-1v29y9qi6paqo.pike.replit.dev:3000/hotels')
+        axios.get('https://5748d460-5c1b-4e64-a69a-706f71c0a120-00-1u2yyyknxowwd.sisko.replit.dev/hotels')
             .then(response => {
                 const fetchedHotels = response.data.hotels || [];
                 setHotels(fetchedHotels);

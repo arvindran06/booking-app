@@ -21,7 +21,7 @@ export default function SignUp() {
         };
 
         try {
-            const response = await axios.post("https://8364f4f0-6dd5-484b-962b-67490c79bbbe-00-1v29y9qi6paqo.pike.replit.dev:3000/signup", userData);
+            const response = await axios.post("https://5748d460-5c1b-4e64-a69a-706f71c0a120-00-1u2yyyknxowwd.sisko.replit.dev/signup", userData);
             console.log('Response:', response.data);
             alert("Sign up is successful");
             navigate("/");
