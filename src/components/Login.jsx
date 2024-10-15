@@ -18,7 +18,7 @@ export default function LogIn() {
         const loginData = { email, password };
 
         try {
-            const response = await axios.post("https://5748d460-5c1b-4e64-a69a-706f71c0a120-00-1u2yyyknxowwd.sisko.replit.dev/login", loginData);
+            const response = await axios.post("https://cc0b79f3-e36e-4b98-9eef-4d6093818c11-00-2uzpm3ihplepv.sisko.replit.dev/login", loginData);
             const token = response.data.token;
 
             if (token) {

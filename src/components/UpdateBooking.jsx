@@ -15,7 +15,7 @@ export default function UpdateBookingModal({ show, handleClose, booking, updateB
 
         try {
             const response = await axios.put(
-                `https://5748d460-5c1b-4e64-a69a-706f71c0a120-00-1u2yyyknxowwd.sisko.replit.dev/bookings/${booking.booking_id}`,
+                `https://cc0b79f3-e36e-4b98-9eef-4d6093818c11-00-2uzpm3ihplepv.sisko.replit.dev/bookings/${booking.booking_id}`,
                 {
                     hotel_id: booking.hotel_id,
                     start_date: startDate,

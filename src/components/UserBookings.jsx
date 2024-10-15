@@ -19,7 +19,7 @@ export default function UserBookings() {
 
             try {
                 const response = await axios.get(
-                    'https://5748d460-5c1b-4e64-a69a-706f71c0a120-00-1u2yyyknxowwd.sisko.replit.dev/bookings',
+                    'https://cc0b79f3-e36e-4b98-9eef-4d6093818c11-00-2uzpm3ihplepv.sisko.replit.dev/bookings',
                     {
                         headers: {
                             Authorization: token,
@@ -46,7 +46,7 @@ export default function UserBookings() {
 
         try {
             await axios.delete(
-                `https://5748d460-5c1b-4e64-a69a-706f71c0a120-00-1u2yyyknxowwd.sisko.replit.dev/bookings/${booking_id}`,
+                `https://cc0b79f3-e36e-4b98-9eef-4d6093818c11-00-2uzpm3ihplepv.sisko.replit.dev/bookings/${booking_id}`,
                 {
                     headers: {
                         Authorization: token,
